@@ -16,6 +16,8 @@
 		783D79F1240696160080164A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 783D79EF240696160080164A /* LaunchScreen.storyboard */; };
 		783D79FC240696160080164A /* coredataTest2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783D79FB240696160080164A /* coredataTest2Tests.swift */; };
 		783D7A07240696160080164A /* coredataTest2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783D7A06240696160080164A /* coredataTest2UITests.swift */; };
+		783D7A152406C8140080164A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783D7A142406C8140080164A /* User.swift */; };
+		783D7A172406C8790080164A /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783D7A162406C8790080164A /* Movie.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		783D7A02240696160080164A /* coredataTest2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = coredataTest2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		783D7A06240696160080164A /* coredataTest2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coredataTest2UITests.swift; sourceTree = "<group>"; };
 		783D7A08240696160080164A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		783D7A142406C8140080164A /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		783D7A162406C8790080164A /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,8 @@
 				783D79EF240696160080164A /* LaunchScreen.storyboard */,
 				783D79F2240696160080164A /* Info.plist */,
 				783D79EA240696130080164A /* coredataTest2.xcdatamodeld */,
+				783D7A142406C8140080164A /* User.swift */,
+				783D7A162406C8790080164A /* Movie.swift */,
 			);
 			path = coredataTest2;
 			sourceTree = "<group>";
@@ -264,7 +270,9 @@
 			files = (
 				783D79E6240696130080164A /* ViewController.swift in Sources */,
 				783D79E2240696130080164A /* AppDelegate.swift in Sources */,
+				783D7A172406C8790080164A /* Movie.swift in Sources */,
 				783D79E4240696130080164A /* SceneDelegate.swift in Sources */,
+				783D7A152406C8140080164A /* User.swift in Sources */,
 				783D79EC240696130080164A /* coredataTest2.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

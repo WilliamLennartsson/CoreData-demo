@@ -1,4 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="false" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15702" systemVersion="19C57" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Movie" representedClassName=".Movie" syncable="YES" codeGenerationType="category">
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="identifier" optional="YES" attributeType="String"/>
+        <attribute name="movieDesription" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+        <relationship name="owner" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="User" inverseName="movieCollection" inverseEntity="User"/>
+    </entity>
+    <entity name="User" representedClassName=".User" syncable="YES" codeGenerationType="category">
+        <attribute name="identifier" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <relationship name="movieCollection" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Movie" inverseName="owner" inverseEntity="Movie"/>
+    </entity>
+    <elements>
+        <element name="Movie" positionX="-2673" positionY="-1710" width="128" height="118"/>
+        <element name="User" positionX="-2448.47265625" positionY="-1707.48046875" width="128" height="88"/>
+    </elements>
 </model>
